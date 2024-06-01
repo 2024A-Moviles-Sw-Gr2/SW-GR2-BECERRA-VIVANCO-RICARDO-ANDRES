@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653708151487",
+    "project_id": "rabv-2024a-sw-gr2",
+    "storage_bucket": "rabv-2024a-sw-gr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653708151487:android:23a5ac5cc78a839ead540a",
+        "android_client_info": {
+          "package_name": "com.example.a2024swbecerra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEBiwwk-qlK2ZXYKPUq5odl-_4qbPVxIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

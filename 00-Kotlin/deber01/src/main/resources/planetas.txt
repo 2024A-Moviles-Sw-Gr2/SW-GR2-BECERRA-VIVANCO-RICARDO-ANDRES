@@ -1,0 +1,22 @@
+Antes
+Sistema: Sistema Solar, Numero de planetas 8, Tiene estrella central: true, Edad: 4568000000, Galaxia: La Vía Láctea
+ID: 1, Nombre: Mercurio, Tiene anillos: false, Masa: 3.285E23, PeriodoOrbital: 88
+ID: 2, Nombre: Venus, Tiene anillos: false, Masa: 4.867E24, PeriodoOrbital: 225
+ID: 3, Nombre: Tierra, Tiene anillos: false, Masa: 5.972E24, PeriodoOrbital: 365
+ID: 4, Nombre: Júpiter Actualizado, Tiene anillos: true, Masa: 1.898E27, PeriodoOrbital: 4333
+Despues
+Sistema: Sistema Solar, Numero de planetas 8, Tiene estrella central: true, Edad: 4568000000, Galaxia: La Vía Láctea
+ID: 1, Nombre: Mercurio, Tiene anillos: false, Masa: 3.285E23, PeriodoOrbital: 88
+ID: 2, Nombre: Venus, Tiene anillos: false, Masa: 4.867E24, PeriodoOrbital: 225
+ID: 4, Nombre: Júpiter Actualizado, Tiene anillos: true, Masa: 1.898E27, PeriodoOrbital: 4333
+Antes Sistema
+Sistema: Sistema Solar, Numero de planetas 8, Tiene estrella central: true, Edad: 4568000000, Galaxia: La Vía Láctea
+ID: 1, Nombre: Mercurio, Tiene anillos: false, Masa: 3.285E23, PeriodoOrbital: 88
+ID: 2, Nombre: Venus, Tiene anillos: false, Masa: 4.867E24, PeriodoOrbital: 225
+ID: 4, Nombre: Júpiter Actualizado, Tiene anillos: true, Masa: 1.898E27, PeriodoOrbital: 4333
+Despues Sistema
+Sistema: Sistema Solar Actualizado, Numero de planetas 8, Tiene estrella central: true, Edad: 4568000000, Galaxia: Andromeda
+ID: 1, Nombre: Mercurio, Tiene anillos: false, Masa: 3.285E23, PeriodoOrbital: 88
+ID: 2, Nombre: Venus, Tiene anillos: false, Masa: 4.867E24, PeriodoOrbital: 225
+ID: 4, Nombre: Júpiter Actualizado, Tiene anillos: true, Masa: 1.898E27, PeriodoOrbital: 4333
+Eliminacion total
