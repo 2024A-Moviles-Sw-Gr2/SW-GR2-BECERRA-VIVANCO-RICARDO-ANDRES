@@ -12,7 +12,10 @@
         android:layout_width="121dp"
         android:layout_height="62dp"
         android:layout_marginStart="12dp"
+        android:background="#2196F3"
         android:text="Crear"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.751"
@@ -22,14 +25,15 @@
 
     <TextView
         android:id="@+id/tv_formulario_sistema"
-        android:layout_width="385dp"
-        android:layout_height="54dp"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
         android:layout_marginTop="28dp"
+        android:background="#000000"
         android:text="Actualizar Sistema"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,6 +41,7 @@
         android:id="@+id/ti_nombre_sistema"
         android:layout_width="316dp"
         android:layout_height="56dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="Nombre del sistema"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +54,7 @@
         android:id="@+id/ti_planetas_sistema"
         android:layout_width="316dp"
         android:layout_height="56dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="Número de planetas"
         app:layout_constraintEnd_toEndOf="@+id/ti_nombre_sistema"
         app:layout_constraintHorizontal_bias="0.0"
@@ -59,6 +65,7 @@
         android:id="@+id/ti_galaxia_sistema"
         android:layout_width="316dp"
         android:layout_height="56dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="Galaxia"
         app:layout_constraintEnd_toEndOf="@+id/ti_estrella_sistema"
         app:layout_constraintStart_toStartOf="@+id/ti_estrella_sistema"
@@ -68,6 +75,7 @@
         android:id="@+id/ti_edad_sistema"
         android:layout_width="316dp"
         android:layout_height="56dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="Edad"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/ti_galaxia_sistema"
@@ -78,6 +86,7 @@
         android:id="@+id/ti_estrella_sistema"
         android:layout_width="316dp"
         android:layout_height="56dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="¿Tiene estrella central?"
         app:layout_constraintEnd_toEndOf="@+id/ti_planetas_sistema"
         app:layout_constraintStart_toStartOf="@+id/ti_planetas_sistema"
@@ -89,6 +98,7 @@
         android:layout_width="316dp"
         android:layout_height="30dp"
         android:layout_marginTop="48dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:text="Ubicación"
         android:textAlignment="textStart"
         android:textSize="20sp"
@@ -101,6 +111,7 @@
         android:id="@+id/ti_latitud"
         android:layout_width="315dp"
         android:layout_height="51dp"
+        android:fontFamily="@font/albert_sans_medium"
         android:hint="Latitud"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/btn_buscar_ubicacion"
@@ -117,20 +128,24 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_buscar_ubicacion"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/ti_latitud"
-        app:layout_constraintTop_toBottomOf="@+id/ti_latitud" />
+        app:layout_constraintTop_toBottomOf="@+id/ti_latitud"
+        android:fontFamily="@font/albert_sans_medium" />
 
     <Button
         android:id="@+id/btn_buscar_ubicacion"
-        android:layout_width="163dp"
-        android:layout_height="62dp"
+        android:layout_width="122dp"
+        android:layout_height="65dp"
         android:layout_marginStart="12dp"
+        android:background="#2196F3"
         android:text="Abrir en el mapa"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ti_planetas_sistema"
-        app:layout_constraintVertical_bias="0.859" />
+        app:layout_constraintVertical_bias="0.858" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,37 +9,39 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="169dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="490dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="56dp"
+        android:background="#000000"
         android:text="Planetas"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
         android:id="@+id/lv_planetas"
-        android:layout_width="384dp"
-        android:layout_height="529dp"
+        android:layout_width="300dp"
+        android:layout_height="412dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.426" />
 
     <Button
         android:id="@+id/btn_crear_planetas"
         android:layout_width="108dp"
         android:layout_height="42dp"
-        android:layout_marginStart="24dp"
+        android:background="#2196F3"
         android:text="Crear"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="1.0" />
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="616dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

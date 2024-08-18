@@ -70,6 +70,6 @@ class Sistema (
     }
 
     override fun toString(): String {
-        return "\nSistema: ${nombre}, Numero de planetas ${numeroPlanetas}, Tiene estrella central: ${tieneEstrellaCentral}, Edad: ${edad}, Galaxia: ${galaxia}"
+        return "\n${nombre}, Numero de planetas ${numeroPlanetas}, Tiene estrella central: ${tieneEstrellaCentral}, Edad: ${edad} años, Galaxia: ${galaxia}"
     }
 }

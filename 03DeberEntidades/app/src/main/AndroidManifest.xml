@@ -29,6 +29,9 @@ xmlns:tools="http://schemas.android.com/tools">
     <meta-data
         android:name="com.google.android.geo.API_KEY"
         android:value="AIzaSyCZnHvMtkadW64vde1xUHNfG2xWw6awITs"  />
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
 
     <activity
         android:name=".MapSelect"

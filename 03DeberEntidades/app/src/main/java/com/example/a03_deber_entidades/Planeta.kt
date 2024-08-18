@@ -56,7 +56,7 @@ class Planeta (
 
     }
     override fun toString(): String {
-        return "\nID: $id, Nombre: $nombre, Tiene anillos: $tieneAnillos, Masa: $masa, PeriodoOrbital: $periodoOrbital"
+        return "\nIdentificador: $id, Planeta: $nombre, Anillo: $tieneAnillos, Masa: $masa Kg, PeriodoOrbital: $periodoOrbital días"
     }
 
 }

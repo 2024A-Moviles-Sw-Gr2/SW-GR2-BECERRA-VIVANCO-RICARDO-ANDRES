@@ -9,13 +9,17 @@
 
     <TextView
         android:id="@+id/tv_map_select"
-        android:layout_width="385dp"
-        android:layout_height="54dp"
+        android:layout_width="432dp"
+        android:layout_height="53dp"
         android:layout_marginTop="28dp"
+        android:background="#000000"
+        android:fontFamily="@font/albert_sans_medium"
         android:text="Ubicación"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +39,11 @@
         android:layout_width="206dp"
         android:layout_height="57dp"
         android:layout_marginStart="12dp"
+        android:background="#2196F3"
+        android:fontFamily="@font/albert_sans_medium"
         android:text="Guardar Ubicación"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.479"
