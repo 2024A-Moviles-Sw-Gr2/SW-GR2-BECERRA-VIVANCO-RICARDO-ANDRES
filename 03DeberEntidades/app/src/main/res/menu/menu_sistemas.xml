@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_editar_sistema"
+        android:title="Editar sistema" />
+    <item
+        android:id="@+id/mi_eliminar_sistema"
+        android:title="Eliminar sistema" />
+    <item
+        android:id="@+id/mi_ver_ubicación"
+        android:iconTint="#E12222"
+        android:title="Ver ubicación" />
+    <item
+        android:id="@+id/mi_ver_sistema"
+        android:title="Ver sistema" />
+</menu>

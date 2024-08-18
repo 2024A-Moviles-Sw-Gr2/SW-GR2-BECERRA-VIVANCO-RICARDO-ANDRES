@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_formulario_planeta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioPlanetas">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ti_titulo_planeta"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="108dp"
+        android:hint="Nombre del planeta"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tv_formulario_planeta"
+        app:layout_constraintStart_toStartOf="@+id/tv_formulario_planeta"
+        app:layout_constraintTop_toBottomOf="@+id/tv_formulario_planeta" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ti_masa_planeta"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:hint="Masa del planeta"
+        app:layout_constraintEnd_toEndOf="@+id/ti_periodo_planeta"
+        app:layout_constraintStart_toStartOf="@+id/ti_periodo_planeta"
+        app:layout_constraintTop_toBottomOf="@+id/ti_periodo_planeta" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ti_periodo_planeta"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:hint="Periodo orbital"
+        app:layout_constraintEnd_toEndOf="@+id/ti_anillos_planeta"
+        app:layout_constraintStart_toStartOf="@+id/ti_anillos_planeta"
+        app:layout_constraintTop_toBottomOf="@+id/ti_anillos_planeta" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ti_anillos_planeta"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:hint="¿Tiene anillos?"
+        app:layout_constraintEnd_toEndOf="@+id/ti_titulo_planeta"
+        app:layout_constraintStart_toStartOf="@+id/ti_titulo_planeta"
+        app:layout_constraintTop_toBottomOf="@+id/ti_titulo_planeta" />
+
+    <Button
+        android:id="@+id/btn_formulario_planeta"
+        android:layout_width="155dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="124dp"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_formulario_planeta"
+        android:layout_width="385dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:text="Actualizar Planeta"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
